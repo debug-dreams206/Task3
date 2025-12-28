@@ -1,0 +1,14 @@
+{
+  "cards":[
+    {"title":"Users","value":1200,"bg":"bg-primary"},
+    {"title":"Sales","value":750,"bg":"bg-success"},
+    {"title":"Orders","value":320,"bg":"bg-warning"},
+    {"title":"Revenue","value":"$24,500","bg":"bg-danger"}
+  ],
+  "orders":[
+    {"id":"ORD001","customer":"Alice","amount":"$120","status":"Completed"},
+    {"id":"ORD002","customer":"Bob","amount":"$200","status":"Pending"},
+    {"id":"ORD003","customer":"Charlie","amount":"$150","status":"Completed"},
+    {"id":"ORD004","customer":"Diana","amount":"$300","status":"Cancelled"}
+  ]
+}

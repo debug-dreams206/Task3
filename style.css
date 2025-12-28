@@ -1,0 +1,106 @@
+body {
+  background: #f4f6f9;
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 230px;
+  background: #1e1e2f;
+  color: white;
+}
+
+.sidebar h3 {
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #cfd8dc;
+  margin-bottom: 6px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  background: #343a50;
+  color: white;
+  border-radius: 6px;
+}
+
+/* Main */
+.main h2 {
+  margin-bottom: 20px;
+}
+
+/* Cards */
+.card {
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.card h5 {
+  margin-bottom: 5px;
+}
+
+.card h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Gradients */
+.bg-primary {
+  background: linear-gradient(135deg,#6a11cb,#2575fc);
+}
+
+.bg-success {
+  background: linear-gradient(135deg,#00b09b,#96c93d);
+}
+
+.bg-warning {
+  background: linear-gradient(135deg,#f7971e,#ffd200);
+  color: #333;
+}
+
+.bg-danger {
+  background: linear-gradient(135deg,#f85032,#e73827);
+}
+
+/* Table */
+table {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+thead {
+  background: #343a40;
+  color: white;
+}
+
+tbody tr:hover {
+  background: #f1f1f1;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background: #121212;
+  color: white;
+}
+
+.dark-mode table {
+  background: #1e1e2f;
+  color: white;
+}
+
+.dark-mode .sidebar {
+  background: #0f172a;
+}
